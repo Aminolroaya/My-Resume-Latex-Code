@@ -1,0 +1,175 @@
+\PassOptionsToPackage{dvipsnames}{xcolor}
+\documentclass[10pt,a4paper]{altacv}
+\input{glyphtounicode}
+
+\pdfgentounicode=1
+%Layout
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm,footskip=2\baselineskip}
+
+%Packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+\usepackage{hyperref}
+\usepackage{fontawesome}
+\usepackage{ragged2e}
+
+%Colors
+
+\definecolor{accent}{HTML}{000e17}
+\definecolor{heading}{HTML}{000e17}
+\definecolor{emphasis}{HTML}{696969}
+\definecolor{body}{HTML}{01415f}
+
+\colorlet{heading}{heading}
+\colorlet{accent}{accent}
+\colorlet{emphasis}{emphasis}
+\colorlet{body}{body}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%
+
+\begin{document}
+\name{Zahra Aminolroaya \textit{(She/Her)}}
+
+
+
+
+\personalinfo{
+	\faGlobe{\href{https://zahramino.github.io/}{Portfolio Webpage}}
+	\space
+	\space
+	\linkedin{\href{https://www.linkedin.com/in/zahra-aminolroaya}{LinkedIn Profile}}
+	\email{z.aminolroaya@gmail.com}
+	\location{Calgary, Alberta, Canada}
+	\faGithub{\href{https://github.com/Aminolroaya}{Github}}
+}
+%
+
+\begin{fullwidth}
+	\makecvheader
+\end{fullwidth}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Experience %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cvsection[page1sidebar]{Experience}
+\section*{University of Calgary}
+\cvevent{Research Staff (short-term Project)}
+{\href{https://www.hopelab.ca/school-based-suicide-prevention}{HOPE Lab},\href{https://www.hopelab.ca/school-based-suicide-prevention}{Collaboration Centre}}{March 2023 -- Ongoing }{Calgary, Canada}
+
+\begin{itemize}
+	\item Responsible for developing and releasing a training system to avoid youth suicide using conversational AI and Face recognition (initial stage)
+	      
+\end{itemize}
+
+\hfill
+
+\cvevent{Data Scientist (Part-time)}{\href{https://cru.ucalgary.ca/resources/machine-learning}{Clinical Research Unit}}{May 2019 -- Ongoing}{Calgary, Canada}
+\begin{itemize}
+	\item Responsible for evaluating and interpreting client satisfaction data using a BERT transformer model based on Jira service desk tickets
+	\item Creating predictive models for surgical outcomes based on clinical notes and patient mortality
+	      
+\end{itemize}
+
+%
+
+\hfill
+
+\cvevent{Research Assistant}{\href{https://seriousxr.ca/}{SEER Lab}}{January 2019 -- April 2023}{Calgary, Canada}
+
+\begin{itemize}
+	\item Specializing in the design and evaluation of augmented and virtual reality (AR/VR) systems and information visualization
+\end{itemize}
+
+\divider
+
+\section*{Other Companies}
+\cvevent{R \& D Engineer}{\href{https://dataak.com/} {Dataak}}{Dec 2017 -- Nov 2018}{Tehran, Iran}
+
+\begin{itemize}
+	\item Skilled in ETL and management of big data using SolrCloud, the Airflow workflow management platform and Grafana
+	      
+	      
+\end{itemize}
+
+\divider
+
+
+\cvevent{Data Scientist}{\href{http://www.dayche.com/} {Dayche Data Mining Group}}{Sep 2016 -- Dec 2017}{Tehran, Iran}
+
+\begin{itemize}
+	\item In charge of utilizing NLP and ML techniques for the problems of a customer relationship management problem (CRM modeling), pharmacy data integration, and consulting a banking company
+\end{itemize}
+
+\divider
+%
+
+
+
+\cvevent{R \& D Engineer}{\href{https://encrc.sbu.ac.ir/} {Cyber Space Research Center} at Shahid Beheshti University}{ Aug 2015 -- Sep 2016}{Tehran, Iran}
+
+\begin{itemize}
+	\item Developed skills in plagiarism detection using NLP techniques and trie-based data structure
+	\item Familiarity with both relational and non-relational databases, such as SQL, Cassandra and Solr
+	      
+\end{itemize}
+
+%
+\medskip
+\cvsection[page2sidebar]{Some Projects}
+\begin{itemize}
+	\item Sentiment and Emotion Analysis (NLP)
+	      
+	\item Customer Loyalty Categorization (ML)
+	      
+	\item Information Propagation Detection (ML)
+	\item Epilepsy Surgery Prediction (NLP)
+	      
+	\item Death Prediction (ML)
+	      
+	\item Plagiarism Detection (NLP)
+	      
+	\item Pharmacy Data Unification (NLP) \item Data Indexing and Retrieval (Data Engineering)
+	\item Big data management (Data Engineering)
+	\item Epilepsy Pre-surgical Evaluation (VR)
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Education %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\let\olditem\item
+\cvsection{Education}
+\renewcommand*\labelenumi{[\theenumi]}
+\cvevent{PhD.\ in Computer Science}{University of Calgary}{January 2019 -- April 2023}{}
+\begin{itemize}
+	\item Thesis Topic: Immersive Environments for Understanding an Event Propagation in Space and Time   \item Supervisors:
+	      \href{https://contacts.ucalgary.ca/info/cpsc/profiles/102-3556}
+	      { Frank Maurer, Ph.D}
+	      and
+	      \href{https://contacts.ucalgary.ca/info/chs/profiles/1-4838306}
+	      { Samuel Wiebe, MD}
+	\item GPA 4/4
+\end{itemize}
+
+\divider
+
+\cvevent{M.Sc.\ in Computer Science}{University of Shahid Beheshti}{2014 -- 2016}{Tehran, Iran}
+\begin{itemize}
+	
+	\item Thesis Topic: Uncovering the Structure and Temporal Dynamics of Information Propagation
+	\item Supervisor:
+	      \href{http://faculties.sbu.ac.ir/~katanforoush/}
+	      {Ali Katanforoush, Ph.D}
+	\item GPA 4/4
+\end{itemize}
+
+\divider
+
+\cvevent{B.Sc.\ in Computer Science}{University of Shahid Beheshti}{2010 -- 2014}{Tehran, Iran}
+\begin{itemize}
+	\item GPA 4/4
+\end{itemize}
+\medskip
+
+\end{document}
